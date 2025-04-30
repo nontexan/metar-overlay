@@ -74,4 +74,8 @@ echo ${metar_text}
 convert -size  1700x100 -gravity center -background gray95 -fill black -font "Arial-Narrow" label:"${metar_text}" KAUN.png
 ```
 
+## Example generated overlay graphic
 
+<picture>
+  <img alt="Example METAR graphic overlay" src="KAUN.png">
+</picture>
